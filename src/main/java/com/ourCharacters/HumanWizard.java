@@ -2,18 +2,16 @@ package com.ourCharacters;
 
 import com.app.Weapons.Weapon;
 import com.interfaces.Wizard;
-import com.parents.Turtle;
+import com.parents.Human;
 
-public class TurtleWizard extends Turtle implements Wizard {
-	
-	
-
-	public TurtleWizard() {
+public class HumanWizard extends Human implements Wizard {
+		
+	public HumanWizard() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 
-	public TurtleWizard(int health, int magic, String name, Weapon weapon) {
+	public HumanWizard(int health, int magic, String name, Weapon weapon) {
 		super(health, magic, name, weapon);
 		// TODO Auto-generated constructor stub
 	}
@@ -37,16 +35,15 @@ public class TurtleWizard extends Turtle implements Wizard {
 		// TODO Auto-generated method stub
 		super.setWeapon(Weapon.WAND);
 	}
-
-	public TurtleWizard makeTurtleWizard(){
-		TurtleWizard ourTurtWiz = new TurtleWizard();
-		ourTurtWiz.changeHealth();
-		ourTurtWiz.changeMagic();
-		ourTurtWiz.getHealth();
-		ourTurtWiz.getMagic();
-		ourTurtWiz.setName(null);
-		ourTurtWiz.setWeapon(null);
-		return ourTurtWiz;
+	
+	public HumanWizard makeHumanWizard(){
+	HumanWizard ourHuWiz = new HumanWizard();
+	ourHuWiz.changeHealth();
+	ourHuWiz.changeMagic();
+	ourHuWiz.getHealth();
+	ourHuWiz.getMagic();
+	ourHuWiz.setName(name);
+	ourHuWiz.setWeapon(weapon);
+	return ourHuWiz;
 	}
-
 }
