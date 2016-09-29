@@ -8,8 +8,7 @@ public interface Royal extends ClassInterface {
 	@Override
 	void changeMagic();
 
-	@Override
-	void weaponType();
+	
 	
 	
 

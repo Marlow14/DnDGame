@@ -6,7 +6,7 @@ public interface ClassInterface {
 	
 	public void changeMagic();
 	
-	public void weaponType();
+
 	
 
 }

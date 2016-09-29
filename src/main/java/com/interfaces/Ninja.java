@@ -8,8 +8,6 @@ public interface Ninja extends ClassInterface {
 	@Override
 	void changeMagic();
 
-	@Override
-	void weaponType();
 	
 	
 

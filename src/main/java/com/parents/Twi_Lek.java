@@ -1,5 +1,7 @@
 package com.parents;
 
+import com.app.Weapons.Weapon;
+
 public class Twi_Lek extends CharacterClass {
 
 	public Twi_Lek() {
@@ -7,8 +9,8 @@ public class Twi_Lek extends CharacterClass {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Twi_Lek(int health, int magic, String name) {
-		super(health, magic, name);
+	public Twi_Lek(int health, int magic, String name, Weapon weapon) {
+		super(health, magic, name, weapon);
 		// TODO Auto-generated constructor stub
 	}
 

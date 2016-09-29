@@ -8,8 +8,7 @@ public interface Wizard extends ClassInterface{
 	@Override
 	void changeMagic();
 
-	@Override
-	void weaponType();
+	
 	
 	
 

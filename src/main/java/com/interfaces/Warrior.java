@@ -8,7 +8,6 @@ public interface Warrior extends ClassInterface{
 	@Override
 	void changeMagic();
 
-	@Override
-	void weaponType();
+	
 	
 }

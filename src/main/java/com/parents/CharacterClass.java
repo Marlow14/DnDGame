@@ -1,19 +1,23 @@
 package com.parents;
 
+import com.app.Weapons.Weapon;
+
 public class CharacterClass {
 	
 	protected int health = 0;
 	protected int magic = 0;
 	protected String name = null;
+	protected Weapon weapon = null;
 	
-	public CharacterClass(int health, int magic, String name) {
+	public CharacterClass() {
+		super();
+	}
+	public CharacterClass(int health, int magic, String name, Weapon weapon) {
 		super();
 		this.health = health;
 		this.magic = magic;
 		this.name = name;
-	}
-	public CharacterClass() {
-		super();
+		this.weapon = weapon;
 	}
 	public int getHealth() {
 		return health;
@@ -33,6 +37,13 @@ public class CharacterClass {
 	public void setName(String name) {
 		this.name = name;
 	}
+	public Weapon getWeapon() {
+		return weapon;
+	}
+	public void setWeapon(Weapon weapon) {
+		this.weapon = weapon;
+	}
+	
 	
 	
 

@@ -1,5 +1,7 @@
 package com.parents;
 
+import com.app.Weapons.Weapon;
+
 public class Human extends CharacterClass {
 
 	public Human() {
@@ -7,8 +9,8 @@ public class Human extends CharacterClass {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Human(int health, int magic, String name) {
-		super(health, magic, name);
+	public Human(int health, int magic, String name, Weapon weapon) {
+		super(health, magic, name, weapon);
 		// TODO Auto-generated constructor stub
 	}
 
